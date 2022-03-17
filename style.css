@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: #1f1f24;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#logo{
+    width: 12rem;
+
+}
+
+#nav-m{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.icones{
+    color: white;
+    font-size: 3em;
+    margin-right: 0.5em;
+}
+
+#div-principal{
+    width: 100%;
+    height: 500%;
+}
+
+#footer{
+    background-color: #1f1f24;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+
+}
+.pai-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+#pai-footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#texto-footer{
+    color: white;
+    width: 50%;
+}
+
+.icone-footer{
+    color: white;
+    font-size: 2em;
+}
+
+#logo-footer{
+}
+
+#logo-footer img{
+    width: 10em;
+    height: 100%;
+
+}
+
+@media screen and (max-device-width:599px){
+    .icones{
+        font-size: 1.8em;
+    }
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#caixas1{
+    background-image: url("/img/dindin.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+#caixas2{
+    background-image: url("/img/dindin2.jpg");
+    width: 100%;
+    height: 20%;
+}
+
+#caixas3{
+    background-image: url("/img/dindin3.jpg");
+    width: 100%;
+    height: 20%;
+}
+
+#caixas4{
+    background-image: url("/img/dindin4.jpg");
+    width: 100%;
+    height: 20%;
+}
+
+#caixas5{
+    background-image: url("/img/dindin5.jpg");
+    width: 100%;
+    height: 20%;
+}
+
+.imagem-container{
+    width: 100%;
+    height: 100%;
+}
