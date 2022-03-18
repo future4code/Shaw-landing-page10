@@ -1,12 +1,16 @@
 *{
     margin: 0 0;
 }
-
+/* estilizaçao do corpo dos inputs */
 #caixa-contato{
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
+}
+.contato-titulo{
+    text-align: center;
+    margin-bottom: -1em;
 }
 
 .contato-contato{
@@ -19,6 +23,7 @@
 
 }
 
+/* estilizaçao do da primeira parte do contato */
 
 .contato-emprestimo{
     display: grid;
@@ -28,7 +33,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr ;  
     padding: 1em; 
+    margin: -1em;
 }
+
+/* estilizaçao da segunda parte do contato */
 
 .contato-opcoes{
     display: grid;
@@ -41,8 +49,9 @@
 }
 .contato-valores{
     align-self: center;
+    margin-top: 0.5em;
 }
-
+/* Ajuste para ficar responsivo */
 @media screen and  (min-device-width:599px){
     .contato-valores{
         display: grid;
