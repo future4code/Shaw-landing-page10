@@ -195,6 +195,9 @@ main{
     .conteudo{
         padding-bottom: 0em;
     }
+    .icones{
+        font-size: 1.8em;
+    }    
 }
 
 @media screen and (max-device-width:599px) and (min-device-width:400px){
