@@ -1,5 +1,10 @@
 *{
     margin: 0;
+    padding: 0;
+}
+
+body, html{
+    overflow-x:hidden !important;
 }
 
 #header{
@@ -30,9 +35,24 @@
     margin-right: 0.5em;
 }
 
-#div-principal{
+#icones-footer{
     width: 100%;
-    height: 500%;
+}
+
+#div-principal{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{
@@ -81,43 +101,42 @@
 
 }
 
-@media screen and (max-device-width:599px){
-    .icones{
-        font-size: 1.8em;
-    }
-}
-
 #container{
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 
 #caixas1{
-    background-image: url("/img/dindin.jpg");
+    background-image: url("/img/1.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
 
 #caixas2{
-    background-image: url("/img/dindin2.jpg");
+    background-image: url("/img/2.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 20%;
 }
 
 #caixas3{
-    background-image: url("/img/dindin3.jpg");
+    background-image: url("/img/3.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 20%;
 }
 
 #caixas4{
-    background-image: url("/img/dindin4.jpg");
+    background-image: url("/img/4.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 20%;
 }
 
 #caixas5{
-    background-image: url("/img/dindin5.jpg");
+    background-image: url("/img/5.png");
+    background-size: 100% 100%;
     width: 100%;
     height: 20%;
 }
@@ -125,4 +144,79 @@
 .imagem-container{
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    display: flex;
+    width: 96%;
+    height: 90vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #011c50;
+    font-size: 4vw;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.conteudo2{
+    display: flex;
+    width: 96.3%;
+    height: 90vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #011c50;
+    font-size: 3.5vw;
+    align-items: center;
+    padding-left: 1em;
+}
+
+@media screen and (max-device-width: 399px){
+    #caixas1 {
+        background-image: url(/img/1\(400px\).png);
+        font-size: 1em;
+    }
+    #caixas2 {
+        background-image: url(/img/2\(400px\).png);
+        font-size: 1em;
+    }
+    #caixas3 {
+        background-image: url(/img/3\(400px\).png);
+        font-size: 1em;
+    }
+    #caixas4 {
+        background-image: url(/img/4\(400px\).png);
+        font-size: 1em;
+    }
+    #caixas5 {
+        background-image: url(/img/5\(400px\).png);
+        font-size: 1em;
+    }
+    .conteudo{
+        padding-bottom: 0em;
+    }
+}
+
+@media screen and (max-device-width:599px) and (min-device-width:400px){
+    .icones{
+        font-size: 1.8em;
+    }
+    #caixas1{
+        background-image: url(/img/1\(600px\).png);
+    }
+    #caixas2{
+        background-image: url(/img/2\(600px\).png);
+    }
+    #caixas3{
+        background-image: url(/img/3\(600px\).png);
+    }
+    #caixas4{
+        background-image: url(/img/4\(600px\).png);
+    }
+    #caixas5{
+        background-image: url(/img/5\(600px\).png);
+    }
+    .conteudo{
+        padding-bottom: 0em;
+    }
 }
