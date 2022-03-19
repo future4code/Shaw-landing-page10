@@ -193,3 +193,6 @@ main {
     height: 100%;
 }
 
+#icones-footer a{
+    text-decoration: none;
+}
